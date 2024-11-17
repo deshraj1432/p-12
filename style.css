@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    
+}
+/* .page{
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.page1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: center;
+    background-color: #1f293a;
+}
+.card{
+    position: relative;
+    width: 400px;
+    border:1px solid #0ef;
+     padding: 30px;
+     border-radius: 20px;
+}
+.login-box{
+    position: relative;
+    width: 400px;
+}
+.login-box form{
+    width: 100%;
+    padding: 0 50px;
+}
+h2{
+    font-size: 2rem;
+    color: #0ef;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    margin: 25px 0;
+}
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #2c4766;
+    outline: none;
+    border-radius: 40px;
+    text-align: start;
+    font-size: 1rem;
+    color: #fff;
+    padding: 0 20px ;
+    transition: .5s ease;
+
+}
+.input-box input:focus,
+.input-box input:valid{
+    border-color: #0ef;
+}
+  .input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #efebeb;
+    pointer-events: none; 
+    transition:  .5s ease;
+} 
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: 1px;
+    font-size: .8rem;
+    background-color: #1f293a;
+    padding: 0 6px;
+    color: #0ef;
+}
+
+.forgot-pass{
+    margin: -15px 0 10px;
+    text-align: center;
+}
+.forgot-pass a{
+    font-size: .85rem;
+    color: #fff;
+    text-decoration: none;
+}
+.forgot-pass a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #0ef;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #1f293a;
+    font-weight: 600;
+}
+
+.signup-link{
+    margin: 20px 0 10px;
+    text-align: center;
+}
+.signup-link a{
+    font-size: 1rem;
+    color: #0ef;
+    text-decoration: none;
+    font-weight: 600;
+}
+.signup-link a:hover{
+    text-decoration: underline;
+}
